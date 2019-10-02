@@ -1,0 +1,56 @@
+header {
+    border: 1px solid goldenrod;
+}
+.disabled {
+    color: grey;
+}
+
+a .disabled {
+    color: purple;
+}
+.active {
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+li {
+    float: left;
+    margin: 3px;
+}
+div div div div{
+    color: red;
+}
+
+div div div~div {
+    color: blue;
+}
+
+div div div h4 {
+    background-color: red;
+}
+div div div h4~h4 {
+    background-color: blue;
+}
+
+
+
+.grandparent > h4 {
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+
+.promo {
+    font-weight: bold;
+}
+
+[type="text"] {
+    height: 25px;
+}
+
+[type="tel"] {
+    height: 25px;   
+}
